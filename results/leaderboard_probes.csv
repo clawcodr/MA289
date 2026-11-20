@@ -1,0 +1,6 @@
+submission,public_mse,derived_quantity,value
+constant 0.0,0.33602,E[y^2],0.33602
+constant 1.0,0.33318,E[y],0.50142
+rank-uniform FFNN consensus,0.09385,corr(p y),0.4412
+PPMI-SVD + SGNS consensus (rho=0.65),0.07325,corr(q y),0.4219
+all-family consensus (rho=0.545),0.06524,corr(c y),0.4809
